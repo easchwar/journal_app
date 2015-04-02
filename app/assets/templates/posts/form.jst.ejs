@@ -1,0 +1,11 @@
+<div class="errors">
+</div>
+<form>
+  <label>Post Title
+    <input type="text" name="post[title]" value="<%= post.get('title') %>">
+  </label>
+  <label>Post Content
+    <textarea name="post[body]" cols="30" rows="10"><%= post.get('body') %></textarea>
+  </label>
+  <input type="submit" value="Submit Post">
+</form>
